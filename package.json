@@ -1,10 +1,9 @@
 {
   "name": "fhqwhgads",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Come on, fhqwhgads.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node ./postinstall.js",
     "test": "semistandard"
   },
   "repository": {
