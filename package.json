@@ -2,9 +2,11 @@
   "name": "fhqwhgads",
   "version": "1.0.0",
   "description": "Come on, fhqwhgads.",
+  "type": "module",
+  "exports": "./index.js",
   "main": "index.js",
   "scripts": {
-    "test": "semistandard"
+    "test": "semistandard && node test.js"
   },
   "repository": {
     "type": "git",
