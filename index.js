@@ -1,3 +1,1 @@
-'use strict';
-
-exports.fullName = 'fhqwhgadshgnsdhjsdbkhsdabkfabkveybvf';
+export default { fullName: 'fhqwhgadshgnsdhjsdbkhsdabkfabkveybvf' };
