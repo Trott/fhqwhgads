@@ -5,8 +5,9 @@
   "type": "module",
   "exports": "./index.js",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "semistandard && node test.js"
+    "test": "ts-standard -p tsconfig.json && tsc && node test.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,27 @@
     "url": "https://github.com/Trott/fhqwhgads/issues"
   },
   "homepage": "https://github.com/Trott/fhqwhgads#readme",
+  "files": [
+    "CHANGELOG.md",
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@types/node": "^17.0.23",
     "semantic-release": "^19.0.2",
-    "semistandard": "^16.0.1"
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.7.0-beta"
+  },
+  "ts-standard": {
+    "ignore": [
+      "**/*.js",
+      "**/*.d.ts"
+    ]
   },
   "release": {
     "branches": [
