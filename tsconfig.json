@@ -2,7 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
-    "module": "nodenext",
+    "module": "NodeNext",
     "strict": true
   }
 }
