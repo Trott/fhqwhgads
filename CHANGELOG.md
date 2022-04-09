@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/Trott/fhqwhgads/compare/v2.0.0...v2.1.0) (2022-04-09)
+
+
+### Features
+
+* add TypeScript types ([#27](https://github.com/Trott/fhqwhgads/issues/27)) ([ef764fa](https://github.com/Trott/fhqwhgads/commit/ef764fa8ba35c357097c4378c77fd129ccd87603))
+
 # [2.0.0](https://github.com/Trott/fhqwhgads/compare/v1.0.0...v2.0.0) (2021-07-04)
 
 
